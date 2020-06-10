@@ -7,5 +7,6 @@
         <a href="{{ url('/') }}">Home</a>
         <a href="{{ url('hanks') }}">Tom Hanks</a>
         <a href="{{ url('penn') }}">Sean Penn</a>
+        <a href="{{ url('robbins') }}">Tim Robbins</a>
     </div>
 </div>

@@ -50,7 +50,8 @@ body {
   margin-bottom: 30px;
 }
 
-.bio {
+.bio,
+.footer {
   margin-left: 100px;
   margin-right: 100px;
 }

@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('/hanks', 'HanksController@index');
 Route::get('/penn', 'PennController@index');
+Route::get('/robbins', 'RobbinsController@index');
