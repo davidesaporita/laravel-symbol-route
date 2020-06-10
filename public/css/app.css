@@ -54,5 +54,11 @@ body {
 .footer {
   margin-left: 100px;
   margin-right: 100px;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.show {
+  opacity: 1;
 }
 
