@@ -46,12 +46,7 @@ cp .env.example .env
 ```
 php artisan key:generate
 ```
-6. Create an empty database for the application using phpMyAdmin (or similar tools) and add database information in .env file
-7. Migrate and seed (optional) the database:
-```
-php artisan migrate --seed
-```
-8. Now you can start server in your local machine. Don't forget to start the npm watcher in your terminal:
+6. Now you can start server in your local machine. Don't forget to start the npm watcher in your terminal:
 ```
 php artisan serve
 npm run watch
